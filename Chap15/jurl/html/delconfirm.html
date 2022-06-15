@@ -1,0 +1,15 @@
+<div id="shortURLForm">
+    <div id="topmatter">
+        $MESSAGES$$ERRORS$
+    </div>
+    <h1> $pageTitle$ </h1>
+    <form action="$SELF$" method="post">
+        <h2>Short URL</h2>
+        <p class="delconf_shortURL">$shortURL$</p><br/>
+        <h2>Target URL</h2>
+        <p class="delconf_targetURL">$targetURL$</p><br/>
+        <input name="delete" type="submit" value="Confirm Delete"/>
+        <input name="cancel" type="submit" value="Cancel"/>
+        $hiddens$
+    </form>
+</div>

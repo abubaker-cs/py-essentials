@@ -1,0 +1,26 @@
+<div class="recline">
+    <form action="$SELF$" method="post">
+        <table>
+            <tr>
+                <td class="rlbuttons">
+                    <div class="nowrap rlbuttons">
+                        <input class="edit" name="edit" type="submit" value="Edit"/>
+                        <input class="delete" name="delete" type="submit" value="Del"/>
+                    </div>
+                </td>
+                <td class="rlshortURL">
+                    <div class="nowrap rlshortURL">
+                        <a href="http://localhost/jurl/$shortURL$" target="_blank">$shortURL$</a>
+                    </div>
+                </td>
+                <td class="rltargetURL">
+                    <div class="nowrap rltargetURL">
+                        $targetURL$
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <input name="a" type="hidden" value="edit_del"/>
+        <input name="id" type="hidden" value="$id$"/>
+    </form>
+</div>
